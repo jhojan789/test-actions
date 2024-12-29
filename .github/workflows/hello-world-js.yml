@@ -1,12 +1,13 @@
 name: Hello world from JS
+run-name: Running hello world
 
-on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
+on: [push]
+  # push:
+  #   branches:
+  #     - main
+  # pull_request:
+  #   branches:
+  #     - main
 
 jobs:
   say-hello-world-js:
