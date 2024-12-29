@@ -20,6 +20,6 @@ jobs:
         with: 
           node-version: 18
       - name: Install dependencies
-        uses: npm i
+        run: npm i
       - name: Run file
-        uses: node src/index.js
+        run: node index.js
