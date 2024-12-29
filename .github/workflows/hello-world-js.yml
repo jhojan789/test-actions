@@ -22,4 +22,4 @@ jobs:
       - name: Install dependencies
         run: npm i
       - name: Run file
-        run: node index.js
+        run: node src/index.js
